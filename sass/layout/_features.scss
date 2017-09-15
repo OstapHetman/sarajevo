@@ -1,0 +1,30 @@
+#features {
+    min-height: 435px;
+    background-color: $featuresBgc;
+    .fa-first-order {
+        border: 1px $mainTextClr solid;
+        border-radius: 50%;
+        padding: 10px;
+        color: $mainTextClr;
+    }
+    .fa-pencil {
+        @extend .fa-first-order;
+    }
+    .fa-bullhorn {
+        @extend .fa-first-order;
+    }
+    i.fa-heart-o {
+        text-align: center;
+        display: block;
+    }
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: bold;
+        color: $mainTextClr;
+    }
+    .text {
+        margin-top: 115px;
+    }
+}

@@ -1,2 +1,1 @@
-# sarajevo
-One Page Template
+It's a start structure of projects, that helps me 

@@ -1,0 +1,40 @@
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 700px;
+    .text {
+        text-align: center;
+        margin-top: 295px;
+        h1 {
+            font-weight: bold;
+            font-size: 62px;
+            color: #fff;
+            margin: 0;
+            span {
+                color: $mainTextClr;
+            }
+        }
+        h4 {
+            font-size: 48px;
+            color: #fff;
+            font-weight: 100;
+            span {
+                color: $mainTextClr;
+            }
+        }
+        p {
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+    .social-icons {
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 110px;
+        i {
+            padding: 5px;
+        }
+    }
+}

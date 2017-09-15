@@ -1,0 +1,29 @@
+#works {
+    .fa-heart-o {
+        display: block;
+    }
+    h1,
+    .fa-heart-o,
+    p {
+        text-align: center;
+    }
+    .col-md-3 {
+        background: url('../img/work1.jpg') no-repeat;
+        background-position: center center;
+        min-height: 230px;
+    }
+    .nav-works {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            li {
+                padding: 75px 0px 75px 10px;
+                a {
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
